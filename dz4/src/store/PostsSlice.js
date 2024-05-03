@@ -10,6 +10,7 @@ const postSlice = createSlice({
                     "Content-type": "application/json",
                 },
                 body: JSON.stringify(user)
+
             }
             await fetch("https://jsonplaceholder.typicode.com/users", options)
         }
